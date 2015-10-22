@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+.float-end{
+	clear:both;
+}
+body{
+	margin:0px;
+	width:1100px;
+	margin:auto;
+	background-color:rgba(204,204,204,.4);
+	box-shadow:#000 0 0 12px 0px;
+	
+}
+.tot-bdy{
+	background-color:#FFF;
+}
+
+.header{
+	height:100px;
+	background-color:#13BB95;
+	min-width:1100px; 
+}
+.logo{
+	float:left;
+	width:200px;
+	padding-top:15px;
+	padding-left:50px;
+}
+.corner{
+	height:100px;
+	float:left;
+	position:relative;
+	top:100px;
+	background-image:radial-gradient(circle at 100% 100%, rgba(255,255,255,0) 100px, #13BB95 100px);
+	width:100px;
+}
+.logout{
+	float:right;
+	margin-right:40px;
+	margin-top:30px;
+	width:100px;
+}
+.logout-btn{
+	height:30px;
+	width:80px;
+	line-height:30px;
+	text-align:center;
+}
+.logout-btn:hover{
+	background-color:#CCC;
+	color:#13BB95;
+
+}
+.logout a{
+	text-decoration:none;
+	color:#FFF;
+}
+.search{
+	float:right;
+	margin-right:40px;
+	margin-top:30px;
+	width:550px;
+}
+#search-txt{
+	float:left;
+	height:26px;
+	width:300px;
+	outline:none;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+#search-btn{
+	float:left;
+	background-color:#13BB95;
+	color:#FFFFFF;
+	border:none;
+	width:80px;
+	height:30px;
+	font-weight:bold;
+	font-size:16px;
+}
+#search-btn:hover{
+	background-color:#CCC;
+}
+.menu{
+	float:left;
+	background-color:#13BB95;
+	width:250px;
+	border-bottom-right-radius:10px;
+}
+.my-bdy{
+	float:left;
+	border-top-left-radius:100px;
+}
+.dir{
+	border:1px solid #13BB95;
+	background-color:#13BB95;
+	padding-bottom:10px;
+	border-bottom-right-radius:10px;
+}
+.dir-head{
+	background-color:#13BB95;
+	color:#FFF;
+	font-size:30px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.menu-btn{
+	height:40px;
+	background-color:#13BB95;
+	border:1px solid #333;
+	line-height:40px;
+	font-size:15px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:5px;
+	width:215px;
+	font-family:Tahoma, Geneva, sans-serif;
+	box-shadow:#000 2px 2px 2px;
+	border-radius:10px;
+}
+
+.menu a{
+	text-decoration:none;
+	color:#000;
+}
+.my-footer{
+	padding-top:50px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:5px;
+	font-style:italic;
+}
+.footer-left{
+	float:left;
+}
+.footer-right{
+	float:right;
+}
