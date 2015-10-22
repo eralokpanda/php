@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration: none;
+	font-size: 18px;
+}
+body{
+	margin:0px;
+	background-color:#EBF4FA;
+}
+.my-bdy{
+	width:1050px;
+	box-shadow:#CCCCCC 0 0 5px;
+	background-color:#FFFFFF;
+}
+.top-bar{
+	min-width:1050px;
+	height:80px;
+	background-color:#15003A;
+}
+.menu-divider{
+	height:5px;
+	min-width:1050px;
+	background-color:#C33;
+}
+.menu-div{
+	width:1050px;
+	height:40px;
+}
+.center-div{
+	width:1000px;
+}
+.bdy-div-large{
+	height:50px;
+}
+.bdy-div-medium{
+	height:25px;
+}
+.bdy-div-small{
+	height:15px;
+}
+.floatClear{
+	clear:both;
+}

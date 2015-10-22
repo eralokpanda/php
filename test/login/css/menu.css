@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-bar{
+	height:40px;
+	background-color:#F09;
+	width:1050px;
+	margin-top:5px;
+}
+
+.btn{
+	height:40px;
+	float:left;
+	width:80px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:15px;
+	line-height:40px;
+}
+.btn:hover{
+	background-color:rgba(255,255,255,.3);
+	color:#FFFFFF;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 40px; 
+	z-index:99;
+}

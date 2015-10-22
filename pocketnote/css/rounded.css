@@ -1,0 +1,7 @@
+.round{
+	-moz-border-radius: 12px; /* Firefox 3.6-, removed in Firefox 13 */
+	 -webkit-border-radius: 12px; /* Safari 4-, Chrome 3- */ 
+	 border-radius: 12px; /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */
+    background:rgba(255,255,255,0.5);
+
+}

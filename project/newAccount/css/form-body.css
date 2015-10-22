@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*progress bar start*/
+
+.tag{
+	padding-top:30px;
+	margin-bottom:5px;
+	font-size:22px;
+	padding-left:100px;
+}
+
+
+.prog-bar{
+
+	padding-top:10px;
+}
+.prog1{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-bottom: 20px solid #1BBECB;
+	border-right:20px solid #FFFFFF;
+}
+.prog3{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-top: 20px solid #1BBECB;
+	border-right:20px solid #FFFFFF;
+}
+.prog2{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-top: 20px solid #CCC;
+	border-left:20px solid #FFFFFF;
+}
+.prog4{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-bottom: 20px solid #CCC;
+	border-left:20px solid #FFFFFF;
+}
+.progress-text{
+	width:650px;
+	height:40px;
+	background-color:transparent;
+	z-index:5;
+	padding-bottom:30px;
+	bottom:40px;
+	position:relative;
+	color:#FFFFFF;
+}
+.prog1-txt{
+	float:left;
+	width:325px;
+	height:40px;
+	line-height:40px;
+	
+}
+.prog2-txt{
+	float:left;
+	width:325px;
+	height:40px;
+	line-height:40px;
+}
+
+/*progress bar end */
+
+
+
+/*form body*/
+.form-tag{
+	padding-top:30px;
+	margin-bottom:5px;
+	padding-left:100px;
+}
+.form-body{
+	margin-top:5px;
+	float:left;
+	margin-left:100px;
+	box-shadow:#CCC 0 0 2px;
+	height:800px;
+	width:650px;
+	margin-bottom:20px;
+}
+.form-head{
+	height:40px;
+	padding-left:20px;
+	background-color:#3EBF98;
+	line-height:40px;
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+
+l
+
+.prog-bar{
+
+	padding-top:10px;
+}
+.prog1{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-bottom: 20px solid #1BBECB;
+	border-right:20px solid #FFFFFF;
+}
+.prog3{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-top: 20px solid #1BBECB;
+	border-right:20px solid #FFFFFF;
+}
+.prog2{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-top: 20px solid #CCC;
+	border-left:20px solid #FFFFFF;
+}
+.prog4{
+	float:left;
+	font-size: 0px; 
+	line-height:0%;
+	width:305px;
+	border-bottom: 20px solid #CCC;
+	border-left:20px solid #FFFFFF;
+}
+.progress-text{
+	width:650px;
+	height:40px;
+	background-color:transparent;
+	z-index:5;
+	padding-bottom:30px;
+	bottom:40px;
+	position:relative;
+	color:#FFFFFF;
+}
+.prog1-txt{
+	float:left;
+	width:325px;
+	height:40px;
+	line-height:40px;
+	
+}
+.prog2-txt{
+	float:left;
+	width:325px;
+	height:40px;
+	line-height:40px;
+}
+.my-form{
+	float:left;
+	margin-left:20px;
+}
+
+
+#fname,#lname,#email,#mobile,#pass,#conPass,#birthday{
+	margin-top:5px;
+	padding-left:2px;
+	height:25px;
+	width:200px;
+    border:1px soid rgba(0,0,0, 0.2);
+}
+#birthday:focus,#fname:focus,#lname:focus,#gender:focus,#mobile:focus,#email:focus,#pass:focus,#conPass:focus {
+    border:1px solid rgba(0,0,255, 0.2); 
+}
+#birthday:hover,#fname:hover,#lname:hover,#gender:hover,#mobile:hover,#email:hover,#pass:hover,#conPass:hover {
+	box-shadow: 0 0 2px rgba(0, 0, 255, 1);
+    border:1px solid rgba(0,0,255, 0.8); 
+}
+#gender{
+	margin-top:5px;
+	padding-left:2px;
+	height:30px;
+	width:205px;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+#gender:focus {
+    border:1px solid rgba(0,0,255, 0.2); 
+}
+#gender:hover {
+	box-shadow: 0 0 2px rgba(0, 0, 255, 1);
+    border:1px solid rgba(0,0,255, 0.8); 
+}
+#submit{
+	background-color:#008000;
+	color:#FFFFFF;
+	border:none;
+	width:80px;
+	font-size:14px;
+	height:28px;
+}
+#reset{
+	color:#FFFFFF;
+	border:none;
+	width:80px;
+	font-size:14px;
+	height:28px;
+	background-color:#E96568;
+}
+#reset:hover,#submit:hover{
+	background-color:#609;
+}
+
+.term-condition{
+	margin-left:40px;
+	height:180px;
+	width:510px;
+	border: solid 1px #09F;
+	
+}
+.term-head{
+	height:30px;
+	color:#FFF;
+	text-align:left;
+	padding-left:10px;
+	line-height:30px;
+	width:500px;
+	background-color:#09F;
+}
+.term{
+	text-align:left;
+	padding:5px;
+	height:140px;
+	width:500px;
+	overflow:scroll;
+	font-weight:lighter;
+}
+.notice{
+	color:#F00;
+	margin-top:30px;
+}

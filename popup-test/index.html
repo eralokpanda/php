@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home</title>
+<link href="style.css" rel="stylesheet" />
+<link href="login.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery.js"></script>
+<style type="text/css">
+.aa{
+	height:300px;
+	background-color:#13BB95;
+	width:300px;
+	margin-right:0px;
+	text-align:left;
+	padding:5px;
+
+}
+.bck{
+	left:40%;
+	display:none;
+	top:-350px;
+	position:absolute;
+	text-align:right;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	background-color:rgba(0,0,0,.3);
+	border-radius:10px;
+	z-index:99;
+}
+.bcknew{
+	top:100px;
+}
+#close{
+	background-color:transparent;
+	height:20px;
+	border:none;
+	font-size:15px;
+	color:#FFF;
+	width:20px;
+	
+	}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+<div class="logo">
+<img src="common/logo.png" alt="Logo" />
+</div>
+<div class="head-right">
+<div style="float:left; margin-right:10px;">
+<form name="login" action="" method="post">
+<input type="email" id="email" placeholder="Search !" />
+<input type="submit"  id="log"value="Search" />
+</form>
+</div>
+</div>
+<!-- end header -->
+</div>
+
+<div class="my-bdy">
+<div class="left">
+<div class="dir">
+<div class="dir-head">
+<center>
+Directory
+</center>
+</div>
+<a href="#">
+<div class="div-btn" id="1">
+Programmable logic Control
+</div>
+</a>
+<a href="#">
+<div class="div-btn" id="2">
+Hydrolic &amp; Pneumatic
+</div>
+</a>
+<a href="#">
+<div class="div-btn" id="3">
+Study material
+</div>
+</a>
+<a href="#">
+<div class="div-btn" id="4">
+Projects
+</div>
+</a>
+<a href="#">
+<div class="div-btn" id="5">
+Images
+</div>
+</a>
+<a href="#">
+<div class="div-btn" id="6">
+Novel
+</div>
+</a>
+<a href="#">
+<div class="div-btn" id="7">
+Photography
+</div>
+</a>
+</div>
+<!-- left div end -->
+</div>
+
+<div class="center">
+<div class="cent-corner">
+</div>
+<div class="center-div">
+<div class="center-div-head">My logic circuit
+</div>
+<img src="1.jpg" height="500" width="485" />
+<div class="center-div-bottom"><p>&nbsp;&nbsp;&nbsp;In electronics, a logic gate is an idealized or physical device implementing a Boolean function; that is, it performs a logical operation on one or more logical inputs, and produces a single logical output.</p>
+</div>
+</div>
+</div>
+
+
+<div class="right">
+
+
+
+<div class="login">
+<p>&nbsp;&nbsp;&nbsp;* Existing User</p>
+
+<form name="login" action="" method="post">
+<div class="login-box">
+<div class="txt-box">
+<input type="email" id="email" placeholder="&nbsp; email address" />
+</div>
+<div class="txt-box">
+<input  type="password" id="pass" placeholder="&nbsp; Password"  />
+</div>
+<center>
+<div class="btn-div">
+<input type="submit"  id="log"value="Login" />
+</div>
+</center>
+</div>
+
+</form>
+<center>
+<div class="forgot-div" align="left">
+Forgot password?
+</div>
+</center>
+<br />
+<hr width="250px" color="#13BB95" />
+<br />
+
+<p>&nbsp;&nbsp;&nbsp;* New User</p>
+<div class="new-user-div">
+
+
+<form name="login" action="" method="post">
+First Name
+<div class="txt-box">
+<input type="text" id="fname" placeholder="First Neme" />
+</div>
+Last Name
+<div class="txt-box">
+<input type="text" id="lname" placeholder="Last Neme" />
+</div>
+Email
+<div class="txt-box">
+<input type="text" id="new-email" placeholder="Email" />
+</div>
+Password
+<div class="txt-box">
+<input type="text" id="pass1" placeholder="Password" />
+</div>
+Confirm Password
+<div class="txt-box">
+<input type="text" id="pass2" placeholder="Confirm Password" />
+</div>
+<input type="checkbox" id="agree" name="agree" />I agree the Terms and Conditions
+<div class="txt-box">
+<input type="submit" id="submit" value="Submit" />
+</div>
+</form>
+
+
+</div>
+
+
+</div>
+
+
+
+<!-- end right div -->
+</div>
+<div style="clear:both"></div>
+<!-- my body end -->
+</div>
+
+
+<div class="footer">
+<address>
+<div style="border-bottom:1px solid #13BB95; width:1000px; margin:auto;"></div>
+<div class="footer-left">
+<a href="#">Privacy policy</a> &nbsp; <a href="#">About us</a> &nbsp; <a href="#">Contact us</a>
+</div>
+
+<div class="footer-right">
+<a href="#">elogic Team</a>
+</div>
+<div style="clear:both"></div>
+</address>
+<!-- footer end -->
+</div>
+
+
+
+
+
+
+
+
+
+<div class="bck">
+<input type="button" id="close" value="X" />
+<div class="aa">
+
+It works....
+
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+
+$('#close').click(function(){	
+$('.bck').animate({
+		top:'105%'},{easing:'swing',duration:900,complete:function(){$('.bck').hide(); $('.bck').css('top','-350px'); }});
+	
+	
+
+	
+});
+$(document).ready(function(e) {
+    
+
+$('#1').click(function(){
+	$('.bck').show();
+	$('.bck').animate({
+		top:'30%'},900);
+});
+});
+$('#2').click(function(){
+	$('.bck').show();
+	
+});
+$('#3').click(function(){
+	$('.bck').show();
+});
+$('#4').click(function(){
+	$('.bck').show();
+});
+$('#5').click(function(){
+	$('.bck').show();
+});
+$('#6').click(function(){
+	$('.bck').show();
+});
+$('#7').click(function(){
+	$('.bck').show();
+});
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

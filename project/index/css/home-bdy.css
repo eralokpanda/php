@@ -1,0 +1,228 @@
+
+/*Body part of the home page. It is divided into 3 parts. 1st part is slide and login, latest update in 2nd part and all the three zone in 3rd part*/
+
+/* other */
+
+.body-part1{
+	height:315px;
+	width:1020px;
+	padding:5px;
+	box-shadow:#000000 0 0 2px;
+	background-color:rgba(252,249,194,.5);
+	margin-bottom:10px;
+
+}
+.body-part2{
+	height:152px;
+	width:1020px;
+	padding:5px;
+	box-shadow:#000000 0 0 2px;
+	background-color:rgba(252,249,194,.5);
+	margin-bottom:10px;
+	
+}
+.body-part3{
+	height:410px;
+	width:1020px;
+	padding:5px;
+	box-shadow:#000000 0 0 2px;
+	background-color:rgba(252,249,194,.5);
+	margin-bottom:10px;
+	
+}
+.body-heading{
+	height:18px;
+	width:1030px;
+	border-bottom:solid 2px #F75D59;
+	margin-bottom:2px;
+}
+.heading-text{
+	height:18px;
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	color:#FFFFFF;
+	background-color:#F75D59;
+
+}
+
+
+
+/* End */
+
+
+/* Part 1 Start */
+
+.login{
+	float:right;
+	margin-top:7px;
+	width:290px;
+	margin-right:10px;
+	background-color:rgba(0,255,0,.1);
+	height:255px;
+	box-shadow:#666 0 0  2px;
+	padding-top:45px;
+}
+
+
+.txt-box{
+	height:40px;
+}
+
+#user{
+	padding-left:2px;
+	height:30px;
+	width:200px;
+	outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+
+#pass{
+	padding-left:2px;
+	height:30px;
+	width:200px;
+	 outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+
+.btn-div{
+	width:200px;
+	height:30px;
+}
+#login{
+	float:right;
+	background-color:#008000;
+	color:#FFFFFF;
+	border:none;
+	width:80px;
+	font-size:14px;
+	height:28px;
+}
+#login:hover{
+	background-color:#609;
+}
+.forgot-div{
+	width:200px;
+	float:left;
+}
+.new-div{
+	margin-top:50px;
+	width:200px;
+	font-weight:bold;
+}
+.slider{
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+	height:306px;
+}
+div.navBulletsWrapper {display:none;}
+
+
+/*  Part 1 End  */
+
+
+/* Part 2 Start */
+
+
+.latest{
+	width:1000px;
+	height:150px;
+	overflow:hidden;
+}
+ ul.slide{margin:0;
+          padding:0;
+          height:150px;
+          list-style-type:none;}
+ ul.slide li{float:left;
+             list-style-type:none;}
+ ul.slide img{
+	 border-right:5px solid #FFFFFF;
+	 height:150px;
+            }
+
+img{
+	border:none;
+}
+
+/*Part 2 End */
+
+/*Part 3 Start */
+
+
+.kids-zone{
+	float:left;
+	margin-left:15px;
+	width:300px;
+	height:400px;
+	margin-top:2px;
+	
+	
+}
+.young-zone{
+	margin-left:45px;
+	float:left;
+	width:300px;
+	height:400px;
+	margin-top:2px;
+}
+.senior-zone{
+	margin-left:45px;
+	float:left;
+	width:300px;
+	height:410px;
+	margin-top:2px;
+}
+.kids-zone-head{
+	border-radius:5px 5px 0 0;
+	width:300px;
+	height:50px;
+	background-color:#41A317;
+}
+.young-head{
+	border-radius:5px 5px 0 0;
+	width:300px;
+	height:50px;
+	background-color:#1589FF;
+}
+.senior-head{
+	border-radius:5px 5px 0 0;
+	width:300px;
+	height:50px;
+	background-color:#FDD017;
+}
+.zone-title{
+	margin-left:10px;
+	float:left;
+	line-height:50px;
+	font-size:20px;
+	color:#FFFFFF;
+}
+.zone-icon{
+	padding-top:8px;
+	float:right;
+	margin-right:20px;
+	height:36px;
+	width:31px;
+}
+.zone-body{
+	background-color:rgba(00,00,00,.1);
+	height:340px;
+	width:300px;
+	padding-top:10px;
+}
+
+/* Part 3 End */
+

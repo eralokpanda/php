@@ -1,0 +1,53 @@
+- data
+.
+.... - kids
+	.
+	....+ audio
+	.
+	....- book
+		.
+		....+ cache
+	.
+	....+ image
+	.
+	....+latest and icon
+	.
+	....- video
+		.
+		....+ cache
+.
+.... - Senior
+	.
+	....+ audio
+	.
+	....- book
+		.
+		....+ cache
+	.
+	....+ game
+	.
+	....+ image
+	.
+	....+latest and icon
+	.
+	....- video
+		.
+		....+ cache
+.
+.... - young
+	.
+	....+ audio
+	.
+	....- book
+		.
+		....+ cache
+	.
+	....+ game
+	.
+	....+ image
+	.
+	....+latest and icon
+	.
+	....- video
+		.
+		....+ cache

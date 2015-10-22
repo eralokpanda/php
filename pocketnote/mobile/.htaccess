@@ -1,0 +1,21 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:sFmrI7
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pocketnote.tk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.pocketnote.tk$
+RewriteRule ^m/$ http://m.pocketnote.tk/home.php [R=301,L]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE sFmrI7:REDIRECTID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:cbDLlO
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pocketnote.tk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.pocketnote.tk$
+RewriteRule ^m$ http://m.pocketnote.tk/home.php [R=301,L]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE cbDLlO:REDIRECTID
+
+
+
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+

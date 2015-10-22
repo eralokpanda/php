@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.login{
+	float:right;
+	margin-right:20px;
+	margin-top:9px;
+	width:290px;
+	border:1px solid #13BB95;
+	height:700px;
+}
+.login-box{
+	margin-left:45px;
+	margin-top:20px;
+}
+.txt-box{
+	height:45px;
+}
+#email{
+	height:25px;
+	width:200px;
+	    outline:none;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+
+#pass{
+	height:25px;
+	width:200px;
+	    outline:none;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+
+#log{
+	float:right;
+	background-color:#13BB95;
+	color:#FFFFFF;
+	border:none;
+	width:80px;
+	height:30px;
+}
+#log:hover{
+	float:right;
+	background-color:#CCC;
+	color:#FFFFFF;
+	border:none;
+	width:80px;
+	height:30px;
+}
+.btn-div{
+	width:200px;
+	height:30px;
+}
+.forgot-div{
+	width:200px;
+}
+.new-div{
+	margin-top:25px;
+	width:200px;
+	font-weight:bold;
+}
+.new-user-div{
+	padding-left:20px;
+}
+#fname,#lname,#new-email,#pass1,#pass2{
+	height:25px;
+	width:245px;
+	    outline:none;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+#submit{
+	float:right;
+	margin-right:30px;
+	background-color:#13BB95;
+	height:30px;
+	width:80px;
+	outline:none;
+	border:none;
+	color:#FFF;
+	margin-top:10px;
+}
+#submit:hover{
+	background-color:#CCC;
+}

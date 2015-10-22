@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.email-div{
+	width:1050px;
+	height:500px;
+}
+.forgot-bdy{
+	width:500px;
+	margin-top:70px;
+	height:250px;
+	border:solid 1px #0099FF;
+}
+.forgot-head{
+	height:50px;
+	background-color:#0099FF;
+}
+.forgot-title{
+	color:#FFFFFF;
+	font-size:18px;
+	padding-left:20px;
+	float:left;
+	line-height:50px;
+}
+
+
+.forgot-email-box{
+	width:222px;
+	height:30px;
+	padding-top:50px;
+}
+#email{
+	padding-left:2px;
+	height:27px;
+	width:218px;
+	    outline:none;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border:1px solid rgba(0,0,0, 0.2);
+}
+#email:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, 1); 
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 255, 1);
+    border:1px solid rgba(0,0,255, 0.8); 
+}
+#submit{
+	width:220px;
+	background-color:#390;
+	border:0px;
+	margin-top:10px;
+	height:30px;
+	color:#FFFFFF;
+}
+
+.success{
+	height:30px;
+	background-color:rgba(0,153,0,.1);
+	border:dotted #0D0 1px;
+	width:400px;
+	color:#0D0; 
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
+.failure{
+	height:30px;
+	background-color:rgba(153,0,0,.1);
+	border:dotted #D00 1px;
+	width:400px;
+	color:#D00; 
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
+.yello{
+	height:30px;
+	background-color:rgba(255,153,0,.1);
+	border:dotted #FC0 1px;
+	width:400px;
+	color:#FC0; 
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}

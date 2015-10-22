@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.logo{
+	font-size:60px;
+	font-weight:bold;
+	color:#FF0000;
+	line-height:80px;
+	font-family:"Monotype Corsiva";
+}

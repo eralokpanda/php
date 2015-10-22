@@ -1,0 +1,12 @@
+.event-list{
+	padding-top:100px;
+	padding-left:100px;
+	height:600px;
+	width:800px;
+	text-align:left;
+	color:#00FF66;
+	font-size:18px;
+	border-radius:30px;
+	background-color:rgba(0,0,0,.6);
+	box-shadow:#000000 0 0 15px;
+}

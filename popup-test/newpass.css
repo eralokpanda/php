@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	min-width:1100px;
+	width:1100px;
+	margin:auto;
+	background-color:rgba(204,204,204,.4);
+	
+}
+.left a{
+	text-decoration:none;
+	color:#000;
+}
+.header{
+	height:100px;
+	background-color:#13BB95;
+	min-width:1100px; 
+}
+.logo{
+	float:left;
+	line-height:100px;
+	width:200px;
+	font-size:40px;
+	color:#6F3;
+}
+.head-right{
+	float:right;
+	margin-right:40px;
+	margin-top:30px;
+	height:30px;
+}
+.my-bdy{
+	height:800px;
+	background-color:#FFFFFF;
+}
+
+.left{
+	float:left;
+	padding-top:20px;
+	background-color:#13BB95;
+	padding-right:10px;
+	border-bottom-right-radius:10px;
+}
+.dir{
+	border:1px solid #13BB95;
+	background-color:#13BB95;
+	padding-bottom:10px;
+	border-bottom-right-radius:10px;
+}
+.dir-head{
+	background-color:#13BB95;
+	color:#FFF;
+	font-size:30px;
+	margin-bottom:20px;
+}
+
+.cent-corner{
+	height:100px;
+	background-image:radial-gradient(circle at 100% 100%, #FFF 100px, #13BB95 100px);
+	width:100px;
+}
+.right{
+	float:left;
+}
+.right-bdy{
+	border:1px solid #13BB95;
+	border-top-left-radius:100px;
+	z-index:99;
+	bottom:85px;
+	margin-left:15px;
+	position:relative;
+	width:785px;
+	height:600px;
+}
+.pass-box{
+	margin-top:250px;
+	margin-left:220px;
+}
+.div-btn{
+	height:40px;
+	margin-top:10px;
+	padding-right:5px;
+	padding-left:5px;
+	background-color:#13BB95;
+	border:1px solid #333;
+	line-height:40px;
+	font-size:20px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	font-family:Tahoma, Geneva, sans-serif;
+	box-shadow:#000 2px 2px 2px;
+	border-radius:10px;
+	text-decoration:none;
+}
+.div-btn:hover{
+	background-color:#CCC;
+	box-shadow:#000 0px 0px 0px;
+	color:#13BB95;
+}
+.footer{
+	background-color:#FFFFFF;
+	width:1100px;
+	padding-bottom:5px;
+}
+.footer-left{
+	float:left;
+	margin-top:10px;
+	padding-left:20px;
+}
+.footer-right{
+	float:right;
+	margin-top:10px;
+	padding-right:50px;
+	text-align:right;
+}

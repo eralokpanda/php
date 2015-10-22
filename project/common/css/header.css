@@ -1,0 +1,100 @@
+
+.header{
+	min-width:1050px;
+	height:140px;
+}
+.header-center{
+	width:1050px;
+	height:80px;
+}
+
+.logo-bar{
+	min-width:1050px;
+	height:80px;
+	background-color:#0F975E;
+}
+.logo{
+	font-size:60px;
+	font-weight:bold;
+	color:#FA403A;
+	line-height:80px;
+	font-family:"Monotype Corsiva";
+	height:80px;
+	width:400px;
+	float:left;
+	margin-left:30px;
+}
+
+.menu-divider{
+	height:5px;
+	min-width:1050px;
+	background-color:#0C0;
+
+}
+.menu-bar{
+	margin-top:5px;
+	height:40px;
+	background-color:#19A3FF;
+	width:1050px;
+}
+.btn{
+	height:40px;
+	float:left;
+	width:100px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:15px;
+	line-height:40px;
+}
+.btn:hover{
+	background-color:rgba(255,255,255,.3);
+	color:#FFFFFF;
+}
+.header a {
+	text-decoration:none;
+}
+.search{
+	height:40px;
+	float:right;
+	margin-right:20px;
+}
+	
+#search-string{
+	height:23px;
+	margin-top:6px;
+	width:170px;
+	float:right;
+	border:0px;
+	border:0px;
+	outline:0px;
+}
+#search-string:focus{
+	border:0px;
+	outline:0px;
+}
+#search-button{
+	height:25px;
+	border:0px;
+	float:right;
+	background-color:#990000;
+	margin-top:6px;
+	width:60px;
+	
+}
+#search-button:hover{
+	background-color:#06F;
+}
+.login-logout-btn{
+	float:right;
+	height:25px;
+	margin-top:20px;
+	width:80px;
+	color:#FFF;
+	line-height:25px;
+	font-weight:bold;
+	background-color:rgba(255,255,255,.2);
+	margin-right:50px;
+}
+.login-logout-btn:hover{
+	background-color:rgba(255,255,255,.5);
+}
